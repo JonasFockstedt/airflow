@@ -1,0 +1,29 @@
+[2023-05-13T13:29:18.030+0000] {logging_mixin.py:149} INFO - Changing /opt/***/logs/dag_id=schedule-training/run_id=manual__2023-05-13T13:29:16.562577+00:00/task_id=print_models permission to 509
+[2023-05-13T13:29:18.062+0000] {logging_mixin.py:149} INFO - Changing /opt/***/logs/dag_id=schedule-training/run_id=manual__2023-05-13T13:29:16.562577+00:00/task_id=print_models permission to 509
+[2023-05-13T13:29:18.098+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: schedule-training.print_models manual__2023-05-13T13:29:16.562577+00:00 [queued]>
+[2023-05-13T13:29:18.277+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: schedule-training.print_models manual__2023-05-13T13:29:16.562577+00:00 [queued]>
+[2023-05-13T13:29:18.281+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2023-05-13T13:29:18.306+0000] {taskinstance.py:1350} INFO - Executing <Task(_PythonDecoratedOperator): print_models> on 2023-05-13 13:29:16.562577+00:00
+[2023-05-13T13:29:18.312+0000] {standard_task_runner.py:57} INFO - Started process 1537 to run task
+[2023-05-13T13:29:18.316+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'schedule-training', 'print_models', 'manual__2023-05-13T13:29:16.562577+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/scheduler.py', '--cfg-path', '/tmp/tmp2h1clrpz']
+[2023-05-13T13:29:18.321+0000] {standard_task_runner.py:85} INFO - Job 14: Subtask print_models
+[2023-05-13T13:29:18.401+0000] {logging_mixin.py:149} INFO - Changing /opt/***/logs/dag_id=schedule-training/run_id=manual__2023-05-13T13:29:16.562577+00:00/task_id=print_models permission to 509
+[2023-05-13T13:29:18.405+0000] {task_command.py:410} INFO - Running <TaskInstance: schedule-training.print_models manual__2023-05-13T13:29:16.562577+00:00 [running]> on host 7782a178ca1f
+[2023-05-13T13:29:18.498+0000] {taskinstance.py:1570} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='schedule-training' AIRFLOW_CTX_TASK_ID='print_models' AIRFLOW_CTX_EXECUTION_DATE='2023-05-13T13:29:16.562577+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-13T13:29:16.562577+00:00'
+[2023-05-13T13:29:18.500+0000] {logging_mixin.py:149} INFO - PRINTING CURRENT DIR
+/opt/***
+[2023-05-13T13:29:18.501+0000] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 220, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/scheduler.py", line 19, in print_models
+    with open(json_path, "r") as file:
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/c/Users/Jonas/Programming/airflow/models.json'
+[2023-05-13T13:29:18.520+0000] {taskinstance.py:1373} INFO - Marking task as FAILED. dag_id=schedule-training, task_id=print_models, execution_date=20230513T132916, start_date=20230513T132918, end_date=20230513T132918
+[2023-05-13T13:29:18.534+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 14 for task print_models ([Errno 2] No such file or directory: '/mnt/c/Users/Jonas/Programming/airflow/models.json'; 1537)
+[2023-05-13T13:29:18.570+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-05-13T13:29:18.590+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check
