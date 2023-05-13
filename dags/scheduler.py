@@ -1,5 +1,5 @@
 import datetime
-import os
+import requests
 import pendulum
 from airflow.decorators import dag, task
 
@@ -14,10 +14,14 @@ def ScheduleTraining():
 
     @task
     def print_models():
-        json_path = "/opt/airflow/dags/models.json"
-        #print(f"PRINTING CURRENT DIR\n{os.getcwd()}")
-        with open(json_path, "r") as file:
-           print(file.read()) 
+        json_path = "https://raw.githubusercontent.com/JonasFockstedt/airflow/main/models.json"
+        
+        response = requests.get(json_path)
+
+        print(response.text)
+
+        #with open(json_path, "r") as file:
+           #print(file.read()) 
 
 
     print_models()

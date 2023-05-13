@@ -1388,3 +1388,199 @@
 [2023-05-13T13:59:24.790+0000] {logging_mixin.py:149} INFO - [2023-05-13T13:59:24.790+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2023-05-13T13:59:24.819+0000] {logging_mixin.py:149} INFO - [2023-05-13T13:59:24.819+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
 [2023-05-13T13:59:24.843+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.122 seconds
+[2023-05-13T13:59:55.213+0000] {processor.py:156} INFO - Started process (PID=14872) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T13:59:55.215+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T13:59:55.217+0000] {logging_mixin.py:149} INFO - [2023-05-13T13:59:55.216+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T13:59:55.258+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T13:59:55.290+0000] {logging_mixin.py:149} INFO - [2023-05-13T13:59:55.289+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T13:59:55.326+0000] {logging_mixin.py:149} INFO - [2023-05-13T13:59:55.325+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T13:59:55.355+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.146 seconds
+[2023-05-13T14:00:25.535+0000] {processor.py:156} INFO - Started process (PID=14938) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:00:25.537+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:00:25.538+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:00:25.538+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:00:25.575+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:00:25.601+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:00:25.601+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:00:25.630+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:00:25.629+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:00:25.653+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.121 seconds
+[2023-05-13T14:00:56.115+0000] {processor.py:156} INFO - Started process (PID=15003) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:00:56.117+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:00:56.118+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:00:56.118+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:00:56.154+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:00:56.180+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:00:56.179+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:00:56.207+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:00:56.207+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:00:56.233+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.121 seconds
+[2023-05-13T14:01:26.796+0000] {processor.py:156} INFO - Started process (PID=15069) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:01:26.798+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:01:26.799+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:01:26.799+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:01:26.838+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:01:26.867+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:01:26.866+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:01:26.901+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:01:26.901+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:01:26.931+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.139 seconds
+[2023-05-13T14:01:57.434+0000] {processor.py:156} INFO - Started process (PID=15135) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:01:57.435+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:01:57.437+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:01:57.436+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:01:57.474+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:01:57.500+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:01:57.500+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:01:57.529+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:01:57.528+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:01:57.552+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.122 seconds
+[2023-05-13T14:02:28.156+0000] {processor.py:156} INFO - Started process (PID=15201) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:02:28.157+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:02:28.159+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:02:28.158+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:02:28.199+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:02:28.226+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:02:28.226+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:02:28.255+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:02:28.255+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:02:28.280+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.127 seconds
+[2023-05-13T14:02:58.434+0000] {processor.py:156} INFO - Started process (PID=15267) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:02:58.436+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:02:58.437+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:02:58.437+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:02:58.473+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:02:58.501+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:02:58.501+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:02:58.529+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:02:58.529+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:02:58.554+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.123 seconds
+[2023-05-13T14:03:28.748+0000] {processor.py:156} INFO - Started process (PID=15333) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:03:28.750+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:03:28.751+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:03:28.751+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:03:28.790+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:03:28.818+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:03:28.818+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:03:28.847+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:03:28.847+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:03:28.872+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.128 seconds
+[2023-05-13T14:03:59.551+0000] {processor.py:156} INFO - Started process (PID=15399) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:03:59.553+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:03:59.554+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:03:59.554+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:03:59.592+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:03:59.618+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:03:59.618+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:03:59.647+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:03:59.647+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:03:59.673+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.125 seconds
+[2023-05-13T14:04:30.054+0000] {processor.py:156} INFO - Started process (PID=15465) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:04:30.056+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:04:30.057+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:04:30.057+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:04:30.093+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:04:30.120+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:04:30.120+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:04:30.151+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:04:30.150+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:04:30.176+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.126 seconds
+[2023-05-13T14:05:00.861+0000] {processor.py:156} INFO - Started process (PID=15531) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:05:00.863+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:05:00.864+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:05:00.864+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:05:00.899+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:05:00.925+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:05:00.925+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:05:00.958+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:05:00.958+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:05:00.981+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.123 seconds
+[2023-05-13T14:05:31.165+0000] {processor.py:156} INFO - Started process (PID=15597) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:05:31.167+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:05:31.168+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:05:31.168+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:05:31.203+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:05:31.229+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:05:31.229+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:05:31.257+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:05:31.256+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:05:31.279+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.117 seconds
+[2023-05-13T14:06:01.938+0000] {processor.py:156} INFO - Started process (PID=15663) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:06:01.940+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:06:01.941+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:06:01.941+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:06:01.975+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:06:02.000+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:06:02.000+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:06:02.028+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:06:02.028+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:06:02.054+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.119 seconds
+[2023-05-13T14:06:32.118+0000] {processor.py:156} INFO - Started process (PID=15729) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:06:32.119+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:06:32.121+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:06:32.121+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:06:32.155+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:06:32.181+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:06:32.180+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:06:32.209+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:06:32.208+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:06:32.233+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.118 seconds
+[2023-05-13T14:07:02.579+0000] {processor.py:156} INFO - Started process (PID=15794) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:07:02.581+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:07:02.582+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:07:02.582+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:07:02.619+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:07:02.645+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:07:02.645+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:07:02.674+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:07:02.673+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:07:02.697+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.121 seconds
+[2023-05-13T14:07:32.874+0000] {processor.py:156} INFO - Started process (PID=15845) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:07:32.875+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:07:32.877+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:07:32.876+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:07:32.911+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:07:32.935+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:07:32.935+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:07:32.963+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:07:32.963+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:07:32.988+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.116 seconds
+[2023-05-13T14:08:03.407+0000] {processor.py:156} INFO - Started process (PID=15911) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:08:03.408+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:08:03.409+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:08:03.409+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:08:03.443+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:08:03.468+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:08:03.468+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:08:03.495+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:08:03.495+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:08:03.523+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.120 seconds
+[2023-05-13T14:08:33.704+0000] {processor.py:156} INFO - Started process (PID=15977) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:08:33.705+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:08:33.707+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:08:33.707+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:08:33.745+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:08:33.771+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:08:33.771+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:08:33.800+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:08:33.799+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:08:33.822+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.122 seconds
+[2023-05-13T14:09:04.521+0000] {processor.py:156} INFO - Started process (PID=16043) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:09:04.522+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:09:04.523+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:09:04.523+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:09:04.560+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:09:04.586+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:09:04.586+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:09:04.615+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:09:04.615+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:09:04.638+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.121 seconds
+[2023-05-13T14:09:34.933+0000] {processor.py:156} INFO - Started process (PID=16109) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:09:34.934+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:09:34.935+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:09:34.935+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:09:34.970+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:09:34.996+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:09:34.996+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:09:35.024+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:09:35.024+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:09:35.050+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.121 seconds
+[2023-05-13T14:10:05.112+0000] {processor.py:156} INFO - Started process (PID=16175) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:10:05.113+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:10:05.114+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:10:05.114+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:10:05.148+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:10:05.174+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:10:05.174+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:10:05.202+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:10:05.202+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:10:05.226+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.118 seconds
+[2023-05-13T14:10:35.322+0000] {processor.py:156} INFO - Started process (PID=16241) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:10:35.323+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:10:35.325+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:10:35.324+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:10:35.361+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:10:35.388+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:10:35.388+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:10:35.418+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:10:35.418+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:10:35.443+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.124 seconds
+[2023-05-13T14:11:05.568+0000] {processor.py:156} INFO - Started process (PID=16307) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:11:05.570+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:11:05.572+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:11:05.572+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:11:05.611+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:11:05.640+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:11:05.640+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:11:05.673+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:11:05.673+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:11:05.699+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.135 seconds
+[2023-05-13T14:11:35.887+0000] {processor.py:156} INFO - Started process (PID=16373) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:11:35.889+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:11:35.890+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:11:35.890+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:11:35.924+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:11:35.953+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:11:35.953+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:11:35.982+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:11:35.982+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:11:36.009+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.126 seconds
+[2023-05-13T14:12:06.897+0000] {processor.py:156} INFO - Started process (PID=16439) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:12:06.899+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:12:06.900+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:12:06.900+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:12:06.936+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:12:06.961+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:12:06.961+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:12:06.990+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:12:06.990+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:12:07.014+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.120 seconds
+[2023-05-13T14:12:37.390+0000] {processor.py:156} INFO - Started process (PID=16505) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:12:37.391+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:12:37.393+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:12:37.392+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:12:37.431+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:12:37.459+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:12:37.458+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:12:37.490+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:12:37.490+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:12:37.518+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.132 seconds
+[2023-05-13T14:13:07.979+0000] {processor.py:156} INFO - Started process (PID=16571) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:13:07.980+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:13:07.981+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:13:07.981+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:13:08.019+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:13:08.045+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:13:08.045+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:13:08.073+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:13:08.073+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:13:08.098+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.124 seconds
+[2023-05-13T14:13:38.261+0000] {processor.py:156} INFO - Started process (PID=16637) to work on /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:13:38.263+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/tutorial_pipeline.py for tasks to queue
+[2023-05-13T14:13:38.264+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:13:38.264+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:13:38.302+0000] {processor.py:809} INFO - DAG(s) dict_keys(['process-employees']) retrieved from /opt/airflow/dags/tutorial_pipeline.py
+[2023-05-13T14:13:38.331+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:13:38.331+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:13:38.363+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:13:38.363+0000] {dag.py:3490} INFO - Setting next_dagrun for process-employees to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:13:38.389+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/tutorial_pipeline.py took 0.132 seconds

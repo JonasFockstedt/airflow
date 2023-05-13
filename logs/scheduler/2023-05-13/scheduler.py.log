@@ -965,3 +965,199 @@ NameError: name 'get_data' is not defined
 [2023-05-13T13:59:24.786+0000] {logging_mixin.py:149} INFO - [2023-05-13T13:59:24.786+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2023-05-13T13:59:24.815+0000] {logging_mixin.py:149} INFO - [2023-05-13T13:59:24.815+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
 [2023-05-13T13:59:24.842+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.124 seconds
+[2023-05-13T13:59:55.210+0000] {processor.py:156} INFO - Started process (PID=14871) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T13:59:55.211+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T13:59:55.212+0000] {logging_mixin.py:149} INFO - [2023-05-13T13:59:55.212+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T13:59:55.252+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T13:59:55.283+0000] {logging_mixin.py:149} INFO - [2023-05-13T13:59:55.283+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T13:59:55.316+0000] {logging_mixin.py:149} INFO - [2023-05-13T13:59:55.316+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T13:59:55.345+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.139 seconds
+[2023-05-13T14:00:25.532+0000] {processor.py:156} INFO - Started process (PID=14937) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:00:25.533+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:00:25.534+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:00:25.534+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:00:25.571+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:00:25.595+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:00:25.595+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:00:25.624+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:00:25.624+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:00:25.648+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.121 seconds
+[2023-05-13T14:00:56.113+0000] {processor.py:156} INFO - Started process (PID=15002) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:00:56.114+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:00:56.116+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:00:56.115+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:00:56.151+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:00:56.176+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:00:56.176+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:00:56.204+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:00:56.204+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:00:56.229+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.120 seconds
+[2023-05-13T14:01:26.791+0000] {processor.py:156} INFO - Started process (PID=15068) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:01:26.793+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:01:26.794+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:01:26.794+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:01:26.831+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:01:26.860+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:01:26.860+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:01:26.895+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:01:26.895+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:01:26.922+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.135 seconds
+[2023-05-13T14:01:57.431+0000] {processor.py:156} INFO - Started process (PID=15134) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:01:57.433+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:01:57.434+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:01:57.434+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:01:57.471+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:01:57.495+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:01:57.495+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:01:57.525+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:01:57.524+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:01:57.548+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.121 seconds
+[2023-05-13T14:02:28.153+0000] {processor.py:156} INFO - Started process (PID=15200) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:02:28.155+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:02:28.156+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:02:28.156+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:02:28.195+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:02:28.223+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:02:28.222+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:02:28.257+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:02:28.257+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:02:28.282+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.132 seconds
+[2023-05-13T14:02:58.432+0000] {processor.py:156} INFO - Started process (PID=15266) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:02:58.433+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:02:58.434+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:02:58.434+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:02:58.470+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:02:58.494+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:02:58.494+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:02:58.523+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:02:58.523+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:02:58.547+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.119 seconds
+[2023-05-13T14:03:28.742+0000] {processor.py:156} INFO - Started process (PID=15332) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:03:28.744+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:03:28.745+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:03:28.745+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:03:28.784+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:03:28.813+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:03:28.812+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:03:28.841+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:03:28.841+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:03:28.869+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.130 seconds
+[2023-05-13T14:03:59.547+0000] {processor.py:156} INFO - Started process (PID=15398) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:03:59.548+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:03:59.550+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:03:59.549+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:03:59.586+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:03:59.612+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:03:59.612+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:03:59.642+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:03:59.642+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:03:59.665+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.122 seconds
+[2023-05-13T14:04:30.049+0000] {processor.py:156} INFO - Started process (PID=15464) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:04:30.051+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:04:30.052+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:04:30.052+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:04:30.088+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:04:30.114+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:04:30.113+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:04:30.145+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:04:30.144+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:04:30.171+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.126 seconds
+[2023-05-13T14:05:00.860+0000] {processor.py:156} INFO - Started process (PID=15530) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:05:00.861+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:05:00.862+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:05:00.862+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:05:00.897+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:05:00.922+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:05:00.921+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:05:00.955+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:05:00.955+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:05:00.979+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.123 seconds
+[2023-05-13T14:05:31.163+0000] {processor.py:156} INFO - Started process (PID=15596) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:05:31.164+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:05:31.166+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:05:31.165+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:05:31.200+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:05:31.225+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:05:31.225+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:05:31.254+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:05:31.253+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:05:31.278+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.119 seconds
+[2023-05-13T14:06:01.936+0000] {processor.py:156} INFO - Started process (PID=15662) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:06:01.937+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:06:01.938+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:06:01.938+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:06:01.973+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:06:01.998+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:06:01.998+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:06:02.027+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:06:02.027+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:06:02.053+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.121 seconds
+[2023-05-13T14:06:32.116+0000] {processor.py:156} INFO - Started process (PID=15728) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:06:32.117+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:06:32.118+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:06:32.118+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:06:32.153+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:06:32.177+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:06:32.177+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:06:32.205+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:06:32.205+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:06:32.232+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.120 seconds
+[2023-05-13T14:07:02.428+0000] {processor.py:156} INFO - Started process (PID=15793) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:07:02.429+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:07:02.431+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:07:02.431+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:07:02.465+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:07:02.490+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:07:02.490+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:07:02.521+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:07:02.520+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:07:02.544+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.119 seconds
+[2023-05-13T14:07:32.872+0000] {processor.py:156} INFO - Started process (PID=15844) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:07:32.873+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:07:32.875+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:07:32.874+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:07:32.910+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:07:32.933+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:07:32.933+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:07:32.963+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:07:32.962+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:07:32.986+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.118 seconds
+[2023-05-13T14:08:03.405+0000] {processor.py:156} INFO - Started process (PID=15910) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:08:03.406+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:08:03.407+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:08:03.407+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:08:03.444+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:08:03.467+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:08:03.467+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:08:03.496+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:08:03.495+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:08:03.522+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.121 seconds
+[2023-05-13T14:08:33.702+0000] {processor.py:156} INFO - Started process (PID=15976) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:08:33.703+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:08:33.704+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:08:33.704+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:08:33.741+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:08:33.767+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:08:33.767+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:08:33.797+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:08:33.797+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:08:33.821+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.122 seconds
+[2023-05-13T14:08:59.440+0000] {processor.py:156} INFO - Started process (PID=16042) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:08:59.441+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:08:59.443+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:08:59.443+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:08:59.494+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:08:59.518+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:08:59.518+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:08:59.549+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:08:59.548+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:08:59.581+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.145 seconds
+[2023-05-13T14:09:29.865+0000] {processor.py:156} INFO - Started process (PID=16108) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:09:29.866+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:09:29.867+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:09:29.867+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:09:29.903+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:09:29.927+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:09:29.927+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:09:29.956+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:09:29.955+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:09:29.980+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.118 seconds
+[2023-05-13T14:10:00.907+0000] {processor.py:156} INFO - Started process (PID=16174) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:10:00.908+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:10:00.909+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:10:00.909+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:10:00.943+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:10:00.967+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:10:00.967+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:10:00.995+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:10:00.995+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:10:01.019+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.115 seconds
+[2023-05-13T14:10:31.127+0000] {processor.py:156} INFO - Started process (PID=16240) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:10:31.129+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:10:31.130+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:10:31.130+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:10:31.164+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:10:31.188+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:10:31.187+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:10:31.216+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:10:31.216+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:10:31.240+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.116 seconds
+[2023-05-13T14:11:01.345+0000] {processor.py:156} INFO - Started process (PID=16306) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:11:01.347+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:11:01.348+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:11:01.348+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:11:01.381+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:11:01.405+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:11:01.405+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:11:01.433+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:11:01.433+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:11:01.457+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.116 seconds
+[2023-05-13T14:11:31.831+0000] {processor.py:156} INFO - Started process (PID=16372) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:11:31.832+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:11:31.833+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:11:31.833+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:11:31.868+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:11:31.892+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:11:31.892+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:11:31.921+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:11:31.921+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:11:31.945+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.118 seconds
+[2023-05-13T14:12:02.823+0000] {processor.py:156} INFO - Started process (PID=16438) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:12:02.824+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:12:02.826+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:12:02.825+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:12:02.859+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:12:02.882+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:12:02.882+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:12:02.912+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:12:02.912+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:12:02.935+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.114 seconds
+[2023-05-13T14:12:33.324+0000] {processor.py:156} INFO - Started process (PID=16504) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:12:33.325+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:12:33.327+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:12:33.326+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:12:33.361+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:12:33.384+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:12:33.384+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:12:33.412+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:12:33.412+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:12:33.436+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.115 seconds
+[2023-05-13T14:13:03.840+0000] {processor.py:156} INFO - Started process (PID=16570) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:13:03.842+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:13:03.843+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:13:03.843+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:13:03.879+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:13:03.904+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:13:03.904+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:13:03.932+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:13:03.932+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:13:03.959+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.122 seconds
+[2023-05-13T14:13:34.043+0000] {processor.py:156} INFO - Started process (PID=16636) to work on /opt/airflow/dags/scheduler.py
+[2023-05-13T14:13:34.045+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/scheduler.py for tasks to queue
+[2023-05-13T14:13:34.046+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:13:34.046+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:13:34.080+0000] {processor.py:809} INFO - DAG(s) dict_keys(['schedule-training']) retrieved from /opt/airflow/dags/scheduler.py
+[2023-05-13T14:13:34.104+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:13:34.103+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-13T14:13:34.132+0000] {logging_mixin.py:149} INFO - [2023-05-13T14:13:34.131+0000] {dag.py:3490} INFO - Setting next_dagrun for schedule-training to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-13T14:13:34.158+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/scheduler.py took 0.117 seconds
